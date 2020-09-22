@@ -12,8 +12,8 @@
 	<context:component-scan base-package="spring.di.ui, spring.di.entity"/> <!-- 패키지에서 component라는 어노테이션을 찾아라 -->
 	
 	<!-- Exam exam = new NewlecExam(); -->
-	<!-- <bean id="exam1" class="spring.di.entity.NewlecExam" p:kor="10" p:eng="10"/>
-	<bean id="exam2" class="spring.di.entity.NewlecExam" p:kor="20" p:eng="10"/> -->
+	<bean id="exam" class="spring.di.entity.NewlecExam" p:kor="10" p:eng="10"/>
+	<!-- <bean id="exam2" class="spring.di.entity.NewlecExam" p:kor="20" p:eng="10"/> -->
 	<!-- <bean id="exam" class="spring.di.entity.NewlecExam">
 		<constructor-arg name="kor" value="10"/> name 또는 index로 값을 설정 할 수 있음
 		<constructor-arg index="1" value="20"/>
